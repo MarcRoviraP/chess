@@ -1,0 +1,14 @@
+#impar:hover {
+    -fx-background-color: #D4D4D4; 
+}
+#par:hover {
+    -fx-background-color: #6A6A6A; 
+}
+#impar{
+    -fx-background-color: white; 
+	
+}
+#par{
+    -fx-background-color: #4D4D4D; 
+	
+}

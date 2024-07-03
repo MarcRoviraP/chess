@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="masterPane" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ChessController">
+
+	<AnchorPane fx:id="pane" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@application.css" BorderPane.alignment="CENTER">
+		<children>
+			<ImageView fitHeight="1091.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+				<image>
+					<Image url="@../utilidades/img/tablero.jpg" />
+				</image>
+			</ImageView>
+         <ImageView fitHeight="165.0" fitWidth="547.0" layoutX="715.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../utilidades/img/banner_Negre.png" />
+            </image>
+         </ImageView>
+			<Button id="impar" fx:id="casilla00" focusTraversable="false" layoutX="555.0" layoutY="138.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="656.0" layoutY="138.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="757.0" layoutY="138.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="858.0" layoutY="138.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="959.0" layoutY="138.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1060.0" layoutY="138.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1161.0" layoutY="138.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1262.0" layoutY="138.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="555.0" layoutY="239.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="656.0" layoutY="239.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="757.0" layoutY="239.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="858.0" layoutY="239.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="959.0" layoutY="239.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1060.0" layoutY="239.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1161.0" layoutY="239.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1262.0" layoutY="239.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="555.0" layoutY="340.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="656.0" layoutY="340.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="757.0" layoutY="340.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="858.0" layoutY="340.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="959.0" layoutY="340.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1060.0" layoutY="340.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1161.0" layoutY="340.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1262.0" layoutY="340.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="555.0" layoutY="441.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="656.0" layoutY="441.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="757.0" layoutY="441.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="858.0" layoutY="441.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="959.0" layoutY="441.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1060.0" layoutY="441.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1161.0" layoutY="441.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1262.0" layoutY="441.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="555.0" layoutY="542.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="656.0" layoutY="542.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="757.0" layoutY="542.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="858.0" layoutY="542.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="959.0" layoutY="542.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1060.0" layoutY="542.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1161.0" layoutY="542.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1262.0" layoutY="542.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="555.0" layoutY="643.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="656.0" layoutY="643.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="757.0" layoutY="643.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="858.0" layoutY="643.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="959.0" layoutY="643.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1060.0" layoutY="643.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1161.0" layoutY="643.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1262.0" layoutY="643.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="555.0" layoutY="744.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="656.0" layoutY="744.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="757.0" layoutY="744.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="858.0" layoutY="744.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="959.0" layoutY="744.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1060.0" layoutY="744.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1161.0" layoutY="744.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1262.0" layoutY="744.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="555.0" layoutY="845.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="656.0" layoutY="845.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="757.0" layoutY="845.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="858.0" layoutY="845.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="959.0" layoutY="845.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1060.0" layoutY="845.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="par" focusTraversable="false" layoutX="1161.0" layoutY="845.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+			<Button id="impar" focusTraversable="false" layoutX="1262.0" layoutY="845.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="101.0" />
+         <ImageView fitHeight="165.0" fitWidth="547.0" layoutX="706.0" layoutY="949.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../utilidades/img/banner_Blanc.png" />
+            </image>
+         </ImageView>
+         <Label alignment="CENTER" layoutX="556.0" layoutY="953.0" prefHeight="53.0" prefWidth="101.0" text="A" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="657.0" layoutY="953.0" prefHeight="53.0" prefWidth="101.0" text="B" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="758.0" layoutY="953.0" prefHeight="53.0" prefWidth="101.0" text="C" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="859.0" layoutY="953.0" prefHeight="53.0" prefWidth="101.0" text="D" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="960.0" layoutY="953.0" prefHeight="53.0" prefWidth="101.0" text="E" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="1061.0" layoutY="953.0" prefHeight="53.0" prefWidth="101.0" text="F" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="1162.0" layoutY="953.0" prefHeight="53.0" prefWidth="101.0" text="G" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="1263.0" layoutY="953.0" prefHeight="53.0" prefWidth="101.0" text="H" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="447.0" layoutY="868.0" prefHeight="53.0" prefWidth="101.0" text="1" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="447.0" layoutY="767.0" prefHeight="53.0" prefWidth="101.0" text="2" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="447.0" layoutY="666.0" prefHeight="53.0" prefWidth="101.0" text="3" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="447.0" layoutY="565.0" prefHeight="53.0" prefWidth="101.0" text="4" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="447.0" layoutY="464.0" prefHeight="53.0" prefWidth="101.0" text="5" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="447.0" layoutY="363.0" prefHeight="53.0" prefWidth="101.0" text="6" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="447.0" layoutY="262.0" prefHeight="53.0" prefWidth="101.0" text="7" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" layoutX="447.0" layoutY="161.0" prefHeight="53.0" prefWidth="101.0" text="8" textFill="#513d32">
+            <font>
+               <Font size="37.0" />
+            </font>
+         </Label>
+			<ImageView fitHeight="70.0" fitWidth="211.0" layoutX="32.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+				<image>
+					<Image url="@../utilidades/img/botonSolo.png" />
+				</image>
+			</ImageView>
+			<Button fx:id="btnMenu" layoutX="34.0" layoutY="18.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="211.0" style="-fx-background-color: #ff000000;" text="MENU">
+				<font>
+					<Font name="System Bold" size="24.0" />
+				</font>
+			</Button>
+			<Label alignment="CENTER" layoutX="554.0" layoutY="951.0" prefHeight="53.0" prefWidth="101.0" text="A">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="655.0" layoutY="951.0" prefHeight="53.0" prefWidth="101.0" text="B">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="756.0" layoutY="951.0" prefHeight="53.0" prefWidth="101.0" text="C">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="857.0" layoutY="951.0" prefHeight="53.0" prefWidth="101.0" text="D">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="958.0" layoutY="951.0" prefHeight="53.0" prefWidth="101.0" text="E">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="1059.0" layoutY="951.0" prefHeight="53.0" prefWidth="101.0" text="F">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="1160.0" layoutY="951.0" prefHeight="53.0" prefWidth="101.0" text="G">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="1261.0" layoutY="951.0" prefHeight="53.0" prefWidth="101.0" text="H">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="445.0" layoutY="866.0" prefHeight="53.0" prefWidth="101.0" text="1">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="445.0" layoutY="765.0" prefHeight="53.0" prefWidth="101.0" text="2">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="445.0" layoutY="664.0" prefHeight="53.0" prefWidth="101.0" text="3">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="445.0" layoutY="563.0" prefHeight="53.0" prefWidth="101.0" text="4">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="445.0" layoutY="462.0" prefHeight="53.0" prefWidth="101.0" text="5">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="445.0" layoutY="361.0" prefHeight="53.0" prefWidth="101.0" text="6">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="445.0" layoutY="260.0" prefHeight="53.0" prefWidth="101.0" text="7">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Label alignment="CENTER" layoutX="445.0" layoutY="159.0" prefHeight="53.0" prefWidth="101.0" text="8">
+				<font>
+					<Font size="37.0" />
+				</font>
+            <textFill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.8157894611358643" green="0.7780214548110962" blue="0.7780214548110962" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </textFill>
+			</Label>
+			<Pane fx:id="paneEleccio" layoutX="844.0" layoutY="428.0" prefHeight="230.0" prefWidth="230.0" style="-fx-background-color: black; -fx-border-color: black;" stylesheets="@application.css">
+				<children>
+					<Button id="par" fx:id="btnDama" focusTraversable="false" layoutX="15.0" layoutY="15.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-border-radius: 5;">
+						<graphic>
+							<ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+								<image>
+									<Image url="@../utilidades/img/Piezas/Dama_Muerto.png" />
+								</image>
+							</ImageView>
+						</graphic>
+					</Button>
+					<Button id="impar" fx:id="btnCaballo" focusTraversable="false" layoutX="115.0" layoutY="15.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+						<graphic>
+							<ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+								<image>
+									<Image url="@../utilidades/img/Piezas/Caballo_Muerto.png" />
+								</image>
+							</ImageView>
+						</graphic>
+					</Button>
+					<Button id="impar" fx:id="btnAlfil" focusTraversable="false" layoutX="15.0" layoutY="115.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+						<graphic>
+							<ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+								<image>
+									<Image url="@../utilidades/img/Piezas/Alfil_Muerto.png" />
+								</image>
+							</ImageView>
+						</graphic>
+					</Button>
+					<Button id="par" fx:id="btnTorre" focusTraversable="false" layoutX="115.0" layoutY="115.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+						<graphic>
+							<ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+								<image>
+									<Image url="@../utilidades/img/Piezas/Torre_Muerto.png" />
+								</image>
+							</ImageView>
+						</graphic>
+					</Button>
+				</children>
+			</Pane>
+         <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="316.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../utilidades/img/negro.png" />
+            </image>
+         </ImageView>
+         <Label fx:id="lblJugadorNegro" alignment="CENTER" layoutX="759.0" layoutY="64.0" prefHeight="45.0" prefWidth="354.0" text="Nombre jugador negro" wrapText="true">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </Label>
+         <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="1484.0" layoutY="982.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../utilidades/img/blanco.png" />
+            </image>
+         </ImageView>
+         <Label fx:id="lblJugadorBlanco" alignment="CENTER" layoutX="799.0" layoutY="992.0" prefHeight="45.0" prefWidth="354.0" text="Nombre jugador negro" textAlignment="CENTER" wrapText="true">
+            <font>
+               <Font size="26.0" />
+            </font>
+         </Label>
+         <Button fx:id="gananNegras" layoutX="1712.0" layoutY="29.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="195.0" style="-fx-background-color: white;" text="GANAN NEGRAS">
+            <font>
+               <Font name="FreeMono Bold" size="21.0" />
+            </font>
+         </Button>
+         <Button fx:id="gananBlancas" layoutX="1712.0" layoutY="909.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="195.0" style="-fx-background-color: black;" text="GANAN BLANCAS" textFill="#f2e3e3">
+            <font>
+               <Font name="FreeMono Bold" size="21.0" />
+            </font>
+         </Button>
+         <Pane layoutX="1675.0" layoutY="498.0" prefHeight="45.0" prefWidth="195.0">
+            <children>
+               <Button fx:id="empate" mnemonicParsing="false" prefHeight="55.0" prefWidth="200.0" style="-fx-background-color: linear-gradient(to bottom right, white, black);" text="TABLAS" textFill="#575252">
+                  <font>
+                     <Font name="FreeMono Bold" size="31.0" />
+                  </font>
+               </Button>
+            </children>
+         </Pane>
+         <Button fx:id="empate1" layoutX="1679.0" layoutY="497.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="TABLAS" textFill="WHITE">
+            <font>
+               <Font name="FreeMono Bold" size="31.0" />
+            </font>
+         </Button>
+		</children>
+	</AnchorPane>
+</Pane>
