@@ -32,3 +32,4 @@ java -version
 ![alt text](login.png)
 ![alt text](eleccion_color.png)
 ![alt text](partida.png)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/MarcRoviraP/chess)
